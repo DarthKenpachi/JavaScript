@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+
+<body>
+
+<script>
+
+document.write(Math.PI);	//write pi to screen using Math.PI
+document.write("<br/>" + Math.E + "<br/>");	//write value of e^1
+
+var num = prompt("Enter a number", "");	//get user input
+var answer = Math.sqrt(num);	//take sqrt of num and store in answer
+alert("The square root of " + num + " is " + answer);
+
+
+</script>
+
+</body>
+
+</html>
