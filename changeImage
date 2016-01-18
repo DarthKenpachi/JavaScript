@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<body>
+<h1>Let's change the image into Avatar State shall we?</h1>
+
+<img id="myImage" onclick="changeImage()" src="aang2.png" width="100" height="180">
+<p>Click Aang and watch him transform</p>
+
+
+<script>
+	function changeImage(){
+		var image = document.getElementById('myImage');
+		if(image.src.match("aang2")){
+			image.src = "darkAang.png";
+		} else {
+			image.src = "aang2.png";
+		}
+	}
+</script>
+
+</body>
+</html>
