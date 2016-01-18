@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+
+<body>
+
+<script>
+
+var body = new Array("head","shoulders","knees","toes");
+
+body.reverse();	//reverses array indexes
+body.push("tongue", "liver");	//adds these two elements onto end of array
+body.sort();	//sorts all elements in alphabetical order
+
+var string1 = body.join(" - ");	//convert array into string and store in var string1, seperate elements with -
+
+document.write(string1);	//write string1 to screen
+ 
+</script>
+
+</body>
+
+</html>
