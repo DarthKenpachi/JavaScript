@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+
+<body>
+
+<script>
+var value = prompt("Enter your name: ","");	//allows user to enter date, 2 params- 2nd param is what shows in textbox
+//store in var value
+document.write("Hello " + value);
+
+var craft = Array(3);	//craft[] with 3 elements indexed 0-2
+
+for(i=0;i<3;i++)	//3 iterattions using 
+{
+	craft[i] = prompt("Add something to craft[]",""); 		//fill craft[] w/user input
+	//populate each index for each iteration
+}
+
+document.write("<br/>" + craft[0] + "<br/>" + craft[1]+ "<br/>" + craft[2] + "<br/>");
+
+
+
+</script>
+
+</body>
+
+</html>
