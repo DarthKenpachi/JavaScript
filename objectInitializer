@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Initialize</title>
+<script>
+	jaja = {name:"JaJa Scott", age:31};		//initialize a single object when not using a constructor to make a bunch of objects
+	sweets = {name: "Christina Faulkner", age:30};
+</script>
+</head>
+
+<body>
+
+<script>
+	alert(jaja.name);
+	document.write(jaja.name + " wonders if " + sweets.name + " misses him... ");
+</script>
+
+</body>
+
+</html>
