@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<script>
+	function taisFunction(){
+		document.getElementById("demo").innerHTML = "Watch me flip the script.";
+	}
+</script>
+</head>
+
+<body>
+
+<h1>JavaScript placed in Head tags</h1>
+	<p id="demo">Click the button to change the text.</p>
+	
+	<button type="button" onclick="taisFunction()">Try it</button>
+	<button type="button" onclick="myFunction()">Body Slam</button>
+	<button type="button" onclick="theFunction()">External Call</button>
+	
+	<br>
+	<p>Using document.write() after an HTML document is fully loaded, will DELETE ALL EXISTING HTML...try it</p>
+	<button type="button" onclick="document.write(5 + 6)">Write to Clear</button>
+	<br>
+	<p id="demo1">Let's use a var inside function carFunction() to change this text!</p>
+	<button type="button" onclick="carFunction()">Var Txt Change</button>
+	
+	<script>
+		document.write(5 + 6);
+		window.alert(5 + 6);
+	</script>
+	
+	<script src="myScript.js"></script>
+	
+	<script>
+		function myFunction(){
+			document.getElementById("demo").innerHTML = "This function was called from within the body tag!";
+		}
+	</script>
+	<script>
+		var carName ="Chevy";
+		function carFunction(){
+			document.getElementById("demo1").innerHTML = carName;
+		}
+	</script>
+</body>
+</html>
