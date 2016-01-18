@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+
+<body>
+
+<script>
+
+var movies = new Array("Avatar","The Matrix","Fight Club","X-Men");
+var books = new Array("Star Trek","Star Wars","Hunger Games","Where's Waldo");
+
+var string1 = movies.join();	//converts array elements into a string, default no params uses comma to separate elements
+var string2 = books.join(" - ");	//pass - in between "" to insert -
+
+document.write(string1);
+document.write("<br/>" + string2 + "<br/>");
+
+document.write(movies[3] + "<br/>");
+movies.pop();		//removes last element of array movies
+
+
+</script>
+
+</body>
+
+</html>
