@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>methodToObjects</title>
+<script>
+	function person(name, age)	//constructor
+	{
+		this.name = name;
+		this.age = age;
+		
+		this.yearsToRetire = yearsLeft;	//store return value from yearsLeft() into yearsToRetire no () b/c function is part of this object
+	}
+	
+	function yearsLeft()	//no params needed b/c params are taken from obj created
+	{
+		var numYears = 65 - this.age		//stores number of years, use this.age to get age from person object
+		return numYears;	//return numYears stored in var numYears
+	}
+	
+	var donna = new person("Christina Faulkner","28");	//object donna with 2 params to pass to person
+	var jaja = new person("JaJa Scott","29");
+</script>
+
+</head>
+
+<body>
+
+<script>
+	document.write(donna.yearsToRetire());	//call yearsToRetire obj with () to write to screen
+	document.write("<br/>" + jaja.name);	//call var name of obj jaja to write to screen
+
+</script>
+
+</body>
+
+</html>
