@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<script>
+	function validator()
+	{
+		if(document.jajasForm.thebox.checked)	//access jajasForm.thebox.checked(default true)
+		{
+			alert("Yup, it's checked!");
+		}
+		else
+		{
+			alert("Nope, it's NOT checked!");
+		}
+	}
+</script>
+
+</head>
+
+<body>
+<form name="jajasForm">
+	<input type="checkbox" name="thebox"/>
+	<input type="button" value="Press Me!" onClick="validator()"/>
+</form>
+
+</body>
+
+</html>
