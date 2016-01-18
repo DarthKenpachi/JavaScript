@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Functions</title>
+</head>
+
+<body>
+
+<script>
+	function swoop(x)	//swoop() with param x
+	{
+		alert("Don't you want to:" + x);	//display alert panel
+	}
+	
+	swoop(" Succeed? ");	//pass "Succeed?" into swoop()
+	swoop(" Win? ");	//pass to swoop()
+	swoop(" Go for the Gold?! ");	//pass to swoop()
+	
+</script>
+
+</body>
+
+</html>
