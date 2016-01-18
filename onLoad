@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+
+<body onLoad="alert('Deuces Son!');">
+<script>
+
+</script>
+
+<a href="https://www.facebook.com/Majinutsutsu" onMouseOver="alert('Doing it Well!');">Hover Board</a><br/>	<!--Mouse hover over-->
+<a href="http://www.fightersgeneration.com/characters/hibiki-a.html" onMouseOut="alert('You No Wanna Dance?');">Hibiki Two</a></br /> <!--mouse leaves hover-->
+
+</body>
+
+</html>
